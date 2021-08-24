@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Create a simple form</title>
+</head>
+<body>
+
+	<form>
+		<!-- type, name, placeholder, size, maxlength id -->
+		<label>type your email/user name</label>
+		<input type="text" name="email" placeholder="email" size="30px" maxlength="100px">
+
+		<label>type your password</label>
+		<input type="password" name="password" placeholder="password" size="30px" maxlength="100px">
+
+		<input type="submit" value="login">
+	</form>
+
+	
+	<p>Simple payment form</p>
+	<label for = "address">Address :</label>
+	<input type="text" name="address" placeholder="Address" size="30px" maxlength="100px">
+	<br>
+	<label for = "postcode">Address :</label>
+	<input type="text" name="postcode" placeholder="postcode" size="30px" maxlength="100px">
+	<br>
+	<label for = "city">City :</label>
+	<input type="text" name="city" placeholder="City" size="30px" maxlength="100px">
+	<br>
+
+	<p>Choose your shipping method &colon;</p>
+	<select name="shipping">
+		<option value="free supper">Free super saver shipping</option>
+		<option value="two-day">two-Day shipping</option>
+		<option value="one-day">one-Day shipping</option>
+	</select>
+
+	<p>Choose your payment method &colon;</p>
+
+	<label>Paypal <input type="radio" name="payment" value="paypal"></label>
+	<label>Debit Card <input type="radio" name="payment" value="debit card"></label>
+	<label>Credit Card <input type="radio" name="payment" value="credit card"></label>
+
+	<br>
+
+	<label>Comments
+		<textarea rows="4" cols="40" name="Comments"></textarea>
+	</label>
+
+	<br>
+	<label>Sign me up for email updates <input type="checkbox" name="email updates" checked="checked"></label>
+	<br>
+	
+	<label>Securely save my payment <input type="checkbox" name="payment updates" ></label>
+
+	<br>
+
+	<input type="submit" name="submit" value="submit">
+
+</body>
+</html>
