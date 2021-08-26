@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Box outline</title>
+
+	<style type="text/css">
+		.bluebox
+		{
+			background-color: #4277F1;
+			color: white;
+			height: 100px;
+			width: auto;
+			padding: 16px;
+			border: 10px black solid;
+
+			outline-width: 5px;
+			outline-color: green;
+			outline-style: inset;
+
+			margin: 20px;
+			
+		}
+
+		.yellowbox
+		{
+			background-color: #5D3D73;
+			height: 100px;
+			width: auto;
+
+			border-width: 10px 20px 30px 40px;
+			border-color: red green yellow orange;
+			border-style: solid;
+
+			margin: 40px 10px 5px 40px;
+		}
+
+		.greenbox
+		{
+			background-color: green;
+			height: 100px;
+			width: 100px;
+			
+
+			border-width: 20px;
+			border-radius: 1000px;
+			border-color: grey;
+			border-style: solid;
+
+			margin: 50px 10px;
+		}
+		.great
+		{
+			color: black;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="bluebox"> <p>Facebook is <span class="great">great</span> &period;</p></div>
+	<div class="yellowbox"> <p>Apple &period;</p></div>
+	<div class="greenbox"> <p>Microsoft &period;</p></div>
+</body>
+</html>
