@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Styling Links</title>
+
+	<style type="text/css">
+
+		
+
+		a:link {
+		  color: red;
+		}
+
+		a:hover{
+			font-size: 3em;
+		}
+
+		div.bluebox a:active{
+			font-size: 4em;
+		}
+
+		div.yellowbox a:visited{
+			font-size: 5em;
+			color: gray;
+		}
+		.bluebox
+		{
+			background-color: #4277F1;
+			color: white;
+			height: 100px;
+			width: auto;
+		}
+
+		.yellowbox
+		{
+			background-color: #5D3D73;
+			height: 100px;
+			width: auto;
+		}
+
+		.greenbox
+		{
+			background-color: green;
+			height: 100px;
+			width: auto;
+		}
+		.great
+		{
+			color: black;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="bluebox">
+		<p>Facebook is <span class="great">great</span> &period;</p>
+		<p><a href="https://www.facebook.com/" target="_blank">Visit Link</a></p>
+	</div>
+
+	<div class="yellowbox"> 
+		<p>Apple &period;</p>
+		<p><a href="https://www.apple.com/" target="_blank">Visit Link</a></p>
+	</div>
+
+	<div class="greenbox">
+		<p>Microsoft &period;</p>
+		<p><a href="https://www.microsoft.com/en-us/" target="_blank">Visit Link</a></p>
+	</div>
+</body>
+</html>
