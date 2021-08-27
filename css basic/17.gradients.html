@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Gradients</title>
+
+	<style type="text/css">
+
+	    body{
+	    	background: radial-gradient(circle, blue, green, yellow);
+	    }
+		.bluebox
+		{
+			background:linear-gradient(blue, white);
+			color: white;
+			height: 100px;
+			width: auto;
+		}
+
+		.yellowbox
+		{
+			/*background:linear-gradient(blue, white, orange);*/
+			/*background: linear-gradient(to left, blue, white);*/
+
+			background: linear-gradient(to left, rgba(0, 0, 255, 0.1), rgba(0, 0, 255, 1));
+			height: 100px;
+			width: auto;
+		}
+
+		.greenbox
+		{
+
+			background: radial-gradient(circle, blue 5%, white 15%, black 80%);
+			background-color: green;
+			
+			width: 500px;
+			height: 500px;
+			box-sizing: border-box;
+		}
+]
+		.great
+		{
+			color: black;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="bluebox"> <p>Facebook is <span class="great">great</span> &period;</p></div>
+	<div class="yellowbox"> <p>Apple &period;</p></div>
+	<div class="greenbox"> <p>Microsoft &period;</p></div>
+
+	
+</body>
+</html>
